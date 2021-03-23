@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color:white;
+}
+#time{
+    font-size: 8rem;
+}
+h1{
+    margin-bottom:3rem;
+}
+h2{
+    margin-bottom: 0.5rem;
+ 
+}
+@media(max-width:700px){
+    #time{
+        font-size: 6rem;
+    }
+
+}
+
+.location-timezone{
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    font-size: 50px;
+
+   }
+   .temperature {
+   position: absolute;
+    top: 80px;
+    right: 50px;
+    font-size: 18px;
+    color: white;
+
+   }
+   
+   img{
+    width: 120px;
+    height: auto;
+    top: 100px;
+    right: 50px;
+    position: absolute;
+
+  }
